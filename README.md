@@ -36,3 +36,6 @@ This paper presents a novel two-step approach for the fundamental problem of lea
 In this paper, we explore regularizing the primal and dual OT formulations with a strongly convex term, which corresponds to relaxing the dual and primal constraints with smooth approximations. We show how to incorporate squared 2-norm and group lasso regularizations within that framework, leading to sparse and group-sparse transportation plans.
 + [NeurlPS-18] ***On the Convergence and Robustness of Training GANs with Regularized Optimal Transport***  
 In this work, we show that obtaining gradient information of the smoothed Wasserstein GAN formulation, which is based on regularized *Optimal Transport*(OT), is computationally effortless and hence one can apply first order optimization methods to minimize this objective. Consequently, we establish theoretical convergence guarantee to stationarity for a proposed class of GAN optimization algorithms.
++ [NeurlPS-18] ***Interpolating between Optimal Transport and MMD using Sinkhorn Divergences***  
+This paper studies the Sinkhorn divergences, a family of geometric divergences that interpolates between MMD and OT. Relying on a new notion of geometric entropy, we provide theoretical guarantees for these divergences: positivity, convexity and metrization of the convergence in law.
+
